@@ -6,13 +6,13 @@
 * {box-sizing: border-box;}
 
 .img-comp-container {
-  position: absolute;
-  height: 200px; /*should be the same height as the images*/
+  position: auto;
+  height: auto; /*should be the same height as the images*/
 }
 
 .img-comp-img {
-  position: absolute;
-  width: absolute;
+  position: auto;
+  width: auto;
   height: auto;
   overflow: hidden;
 }
