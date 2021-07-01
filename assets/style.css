@@ -6,7 +6,7 @@
 * {box-sizing: border-box;}
 
 .img-comp-container {
-  position: relative;
+  position: absolute;
   height: 200px; /*should be the same height as the images*/
 }
 
