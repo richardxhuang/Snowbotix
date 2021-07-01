@@ -286,18 +286,19 @@
 
     
     
-<div class="comparison-slider-wrapper">
-     <div class="comparison-slider">
-        <div class="overlay"><strong>SUMMER</strong></div>
-     <img src="assets/images/summer-dark-1.jpg" alt="">
-     <div class="resize">
-         <div class="overlay"><strong>WINTER</strong></div>
-        <img src="assets/images/winter-dark-1.jpg" alt="">
-     </div>
-     <div class="divider"></div>
-    </div>
-     <div class="caption">caption</div>
- </div>
+<script
+  defer
+  src="https://unpkg.com/img-comparison-slider@6/dist/index.js"
+></script>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/img-comparison-slider@6/dist/styles.css"
+/>
+
+<img-comparison-slider>
+  <img slot="first" src="before.jpg" />
+  <img slot="second" src="after.jpg" />
+</img-comparison-slider>
 
 
     
