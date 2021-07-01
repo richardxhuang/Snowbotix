@@ -2,4 +2,10 @@
 	margin-left: 27.3px;
 	padding:-px;
 }
+img-comparison-slider {
+  visibility: hidden;
+}
 
+img-comparison-slider.rendered {
+  visibility: inherit;
+}
