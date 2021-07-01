@@ -12,7 +12,7 @@
 
 .img-comp-img {
   position: absolute;
-  width: auto;
+  width: absolute;
   height: auto;
   overflow: hidden;
 }
