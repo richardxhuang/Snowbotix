@@ -9,3 +9,10 @@ img-comparison-slider {
 img-comparison-slider.rendered {
   visibility: inherit;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
